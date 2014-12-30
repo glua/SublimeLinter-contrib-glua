@@ -2,8 +2,9 @@
 # linter.py
 # Linter for SublimeLinter3, a code checking framework for Sublime Text 3
 #
-# Written by Aparajita Fishman
-# Copyright (c) 2013 Aparajita Fishman
+# Inspiration by Aparajita Fishman's Lua linter
+# Written by Samuel Maddock
+# Copyright (c) 2014 gmodcoders
 #
 # License: MIT
 #
@@ -13,7 +14,7 @@
 from SublimeLinter.lint import Linter, util
 
 
-class Lua(Linter):
+class GLua(Linter):
 
     """Provides an interface to gluac -p."""
 
