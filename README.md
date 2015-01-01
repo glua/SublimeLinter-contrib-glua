@@ -7,7 +7,7 @@ This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) pro
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
 
 ### Linter installation
-Before using this plugin, you must ensure that `gluac` is installed on your system. The `gluac` executable can be found on its [repository releases page](https://github.com/cartman300/gluac/releases). You must also ensure that `gluac` is in your system PATH.
+Before using this plugin, you must ensure that `gluac` is installed on your system. The `gluac` executable can be found on its [repository releases page](https://github.com/cartman300/gluac/releases). You must also ensure that `gluac` is in your system PATH. If you're unfamiliar with this process, here's a [tutorial for various versions of Windows](http://www.computerhope.com/issues/ch000549.htm).
 
 Note: `gluac` depends on both `lua_shared.dll` and `tier0.dll`. These files need to either be in your PATH or adjacent to the `gluac` executable. The files can be found in your `SteamApps/common/GarrysMod/garrysmod/bin` and `SteamApps/common/GarrysMod/bin` folders respectively.
 
